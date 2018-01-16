@@ -1,0 +1,21 @@
+First try at neural networking.
+
+Classes
+
+  Net
+  Neuron
+  Connection
+
+  Layer (Is not a class but a type of vector<neuron>)
+
+
+Net is the top layer class containing the neural net,
+composed of three or more layers that contains the neurons.
+Each neuron contains a connection class that connects it to other neurons.
+
+
+Hirearchy goes like
+
+Net -> Neuron -> Connection
+
+// will create uml later (mabye.tm)
